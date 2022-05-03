@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Forms</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for='ln'>Nome: </label>
+            <input type='text' id='ln'>
+            <label for='ln2'>Sobrenome: </label>
+            <input type='text' id='ln2'><br>
+            <label for='ln3'>Nascimento: </label>
+            <input type='date' id='ln3'><br>
+            <label for='ln4'>RG: </label>
+            <input type='text' id='ln4'><br>
+            <label for='ln5'>CPF: </label>
+            <input type='text' id='ln5' size='9' maxlength='9'> - <input type='text' size='2' maxlength='2'>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Dados de Endereço</legend>
+            <label for='ln'>Rua: </label>
+            <input type='text' id='ln'>
+            <label for='ln2'>Número: </label>
+            <input type='number' id='ln2'><br>
+            <label for='ln3'>Bairro: </label>
+            <input type='text' id='ln3'><br>
+            <label for='ln4'>Estado: </label>
+            <select id='ln4'>
+                <option value='AC'>ACRE</opition>
+                <option value='AL'>ALAGOAS</opition>
+                <option value='AP'>AMAPÁ</opition>
+                <option value='AM'>AMAZONAS</opition>
+                <option value='BA'>BAHIA</opition>
+                <option value='CE'>CEARÀ</opition>
+                <option value='ES'>ESPÍRITO SANTO</opition>
+                <option value='GO'>GOIÁS</opition>
+                <option value='MA'>MARANÃO</opition>
+                <option value='MT'>MATO GROSSO</opition>
+                <option value='MS'>MATO GROOSSO DO SUL</opition>
+                <option value='MG'>MINAS GERAIS</opition>
+                <option value='PA'>PARÀ</opition>
+                <option value='PB'>PARAÍBA</opition>
+                <option value='PR'>PARANÁ</opition>
+                <option value='PR'>PERNANBUCO</opition>
+                <option value='PI'>PIAUí</opition>
+                <option value='RJ'>RIO DE JANEIRO</opition>
+                <option value='RN'>RIO GRANDE DO NORTE</opition>
+                <option value='RS'>RIO GRANDE DO SUL</opition>
+                <option value='RO'>RONDÔNIA</opition>
+                <option value='RR'>RORAIMA</opition>
+                <option value='RC'>SANTA CATARINA</opition>
+                <option value='SP'>SÃO PAULO</opition>
+                <option value='SE'>SERGIPE</opition>
+                <option value='TO'>TOCANTINS</opition>
+                <option value='DF'>DISTRITO FEDERAL</opition>
+            </select><br>
+            <label for='ln5'>Cidade: </label>
+            <input type='text' id='ln5'><br>
+            <label for='ln6'>CEP: </label>
+            <input type='text' id='ln6' size='5' maxlength='5'> - <input type='text' size='3' maxlength='3'>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Dados de Login</legend>
+            <label for='ln'>E-Mail: </label>
+            <input type='text' id='ln'><br>
+            <label for='ln2'>Imagem de Perfil: </label>
+            <input type='file' id='ln2' value='Escolher Arquivo'><br>
+            <label for='ln3'>Login de Usuário: </label>
+            <input type='text' id='ln3'><br>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Pesquisa de Interesse</legend>
+            <label for='ln'>E-Mail: </label>
+            <input type='text' id='ln'><br>
+            <label for='ln2'>Imagem de Perfil: </label>
+            <input type='file' id='ln2' value='Escolher Arquivo'><br>
+            <label for='ln3'>Login de Usuário: </label>
+            <input type='text' id='ln3'><br>
+            <label for='ln4'>Senha: </label>
+            <input type='password' id='ln4'><br>
+            <label for='ln5'>Confirme Senha: </label>
+            <input type='password' id='ln5'>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Dados de Login</legend>
+            <p>Você deseja trabalhar como webmaster?</p>
+            <input type='radio' name'sim' id='ln' value='sim'>
+            <label for='sim'>Sim</label><br>
+            <input type='radio' name='não' id='ln' value='não'>
+            <label for='não'>Não</label><br>
+            <input type='radio' name='talvez' id='ln' value='talvez'>
+            <label for='talvez'>Talvez</label><br>
+            <input type='radio' name='quem sabe' id='ln' value='quem sabe'>
+            <label for='quem sabe'>Quem sabe</label><br>
+            <p>O que você deseja aprender?</p>
+            <input type='checkbox' id='ln2' value='HTML'>
+            <label for='HTML'>HTML</label><br>
+            <input type='checkbox' id='ln2' value='CSS'>
+            <label for='CSS'>CSS</label><br>
+            <input type='checkbox' id='ln2' value='JavaScript'>
+            <label for='JavaScript'>JavaScript</label><br>
+            <input type='checkbox' id='ln2' value='Django'>
+            <label for='Django'>Django</label><br>
+            <p>Deixe seu comentário: </p>
+            <textarea rows='10' cols='40' maxlength='500' id='ln3'></textarea><br>
+        </fieldset>
+    </body>
+</htlm>
