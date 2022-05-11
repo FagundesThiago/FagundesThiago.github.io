@@ -19,7 +19,7 @@
 }
 
 .menu li a:hover {
-  background-image: url("sprite.png");
+  background-image: url("Sprite.png");
   background-position: center;
   background-repeat: repeat-x;
 }
@@ -44,7 +44,7 @@
 }
 
 .menu2 li a:hover {
-  background-image: url("sprite.png");
+  background-image: url("Sprite.png");
   background-position: center;
   background-repeat: repeat-x;
 }
