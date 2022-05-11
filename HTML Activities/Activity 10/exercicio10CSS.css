@@ -1,0 +1,21 @@
+main {
+  font-size: 25px;
+}
+a:before {
+  content: "\279D";
+}
+a:link {
+  color: darkgreen;
+}
+
+a:visited {
+  color: maroon;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:active {
+  color: blue;
+}
