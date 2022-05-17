@@ -1,0 +1,49 @@
+.menu {
+  float: left;
+  width: 120px;
+  list-style-type: none;
+  border: 1px solid #C0C0C0;
+  background-color: #DDDDDD;
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  position:relative;
+  border-right:1px solid #c0c0c0;
+}
+.menu li a {
+  color:#333;
+  text-decoration:none;
+  padding:5px 10px;
+  display:block;
+}
+
+.menu li a:hover {
+  background-image: url("Sprite.png");
+  background-position: center;
+  background-repeat: repeat-x;
+}
+
+header{
+  background-color: #808080;
+  color: white;
+  position: relative;
+  top: 0;
+}
+
+footer {
+  background-color: #808080;
+  color: white;
+  font-size: 10pt;
+  position:fixed;
+  bottom:0;
+  width:100%;
+  height:30px;
+}
+
+section {
+  margin: 20px 20px 20px 150px;
+  border-left:2px solid #808080;
+  position: relative;
+}
+
