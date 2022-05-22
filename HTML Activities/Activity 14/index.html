@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset='utf-8'>
+  </head>
+  <body>
+    <h1 id="header"></h1>
+    <script>
+      function parImpar(){   
+        var i = prompt("Vamos verificar se é par ou ímpar", "Digite um número aqui");
+        if (isNaN(i)){
+          alert("Não é um número!");
+        } else {
+          if (i%2 != 0) {
+            window.alert("É Ímpar!");
+          } else {
+            window.alert("É Par!");
+          }
+        }
+      }
+      parImpar();
+    </script>
+  </body>
+</html>
