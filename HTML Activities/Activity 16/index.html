@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+  </head>
+  <body>
+    <h1 id="header"></h1>
+    <script>
+      function validarEmail(i){   
+        var e = prompt("Insira um email", "Digite um email aqui");
+        usuario = e.substring(0, e.indexOf("@"));
+        dominio = e.substring(e.indexOf("@")+ 1, e.length);
+        if ((usuario.length >=1) &&
+        (dominio.length >=3) &&
+        (usuario.search("@")==-1) &&
+        (dominio.search("@")==-1) &&
+        (usuario.search(" ")==-1) &&
+        (dominio.search(" ")==-1) &&
+        (dominio.search(".")!=-1) &&
+        (dominio.indexOf(".") >=1)&&
+        (dominio.lastIndexOf(".") < dominio.length - 1)){
+          alert("Email válido!");
+        } else {
+          alert("O email inserido não é válido!");
+        }
+      }
+      validarEmail();
+    </script>
+  </body>
+</html>
