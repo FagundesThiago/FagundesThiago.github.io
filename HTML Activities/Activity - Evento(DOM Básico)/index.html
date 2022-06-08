@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>incluir Itens</title>
+  </head>
+
+
+    <body>
+    <script type='text/javascript'>
+      function currentTyping(){
+        document.getElementById("txt").innerHTML = " Você está digitando: " + document.getElementById("iptItem").value;
+      }
+    </script>
+
+    <textarea id="iptItem" onkeyup="currentTyping()"></textarea><txt id="txt"> Você está digitando: </txt>
+
+  </body>
+</html>
