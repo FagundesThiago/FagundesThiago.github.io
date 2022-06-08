@@ -13,11 +13,11 @@
     <body>
     <script type='text/javascript'>
       function currentTyping(){
-        document.getElementById("txt").innerHTML = " Você está digitando: " + document.getElementById("iptItem").value;
+        document.getElementById("txt").innerHTML = " Você está digitando: '" + document.getElementById("iptItem").value + "'.";
       }
     </script>
 
-    <textarea id="iptItem" onkeyup="currentTyping()"></textarea><txt id="txt"> Você está digitando: </txt>
+    <textarea id="iptItem" onkeyup="currentTyping()"></textarea><txt id="txt"> Você está digitando: ''.</txt>
 
   </body>
 </html>
