@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>incluir Itens</title>
+  </head>
+
+
+    <body>
+    <script type='text/javascript'>
+      function lampada(){
+        var x = document.getElementById("anchor").innerHTML + " ";
+        if(x.charAt(19) == "f"){
+          document.getElementById("anchor").innerHTML = "<img src='lampada_on.gif' alt='lamp'>";
+        } else {
+          document.getElementById("anchor").innerHTML = "<img src='lampada_off.gif' alt='lamp'>"
+        }
+      }
+    </script>
+
+    <a href='#' id='anchor' onclick="lampada()"><img src='lampada_off.gif' alt='lamp'></a>
+
+  </body>
+</html>
