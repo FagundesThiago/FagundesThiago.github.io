@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>incluir Itens</title>
+  </head>
+
+
+    <body>
+    <script type='text/javascript'>
+      function addItem(){
+        document.getElementById("conteudo_1").innerHTML = document.getElementById("conteudo_1").innerHTML + "->" + document.getElementById("iptItem").value + "<br/>";
+        document.getElementById("iptItem").value = "";
+      }
+    </script>
+
+
+    <p id="conteudo_1">-> algo_1<br></p>
+
+    <textarea id="iptItem"></textarea>
+    <button type="button" onclick='addItem()''>Adicionar</button>
+
+  </body>
+</html>
