@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>Data</title>
+  </head>
+
+
+    <body>
+    <script type='text/javascript'>
+      function calcularData(){
+        var sp = new String(document.getElementById("iptData").value);
+        sp = sp.split("/");
+        var ipt = sp[1] + "/" + sp[0] + "/" + sp[2];
+        const iptData = new Date(ipt);
+        const currentTime = new Date();
+        const diff = Math.abs(currentTime - iptData);
+        if (iptData < currentTime){
+          const anos = Math.ceil(diff/31556952000)-1;
+          const meses = Math.ceil((diff - (anos*31556952000))/(2629800000))-1;
+          const dias = Math.round((diff - ((anos*31556952000)+(meses*2629800000)))/86400000)-1;
+          document.getElementById("txt").innerHTML = "Resultado: " +
+          anos + " anos, " +
+          meses + " meses, " +
+          dias + " dias.";
+        }
+      }
+    </script>
+
+    <p id="txt">Resultado: </p> 
+
+    <textarea id="iptData"></textarea>
+    <button type='button' onclick='calcularData()'>Calcuar</button>
+
+  </body>
+</html>
