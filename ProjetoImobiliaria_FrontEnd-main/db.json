@@ -1,0 +1,103 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "João das neves",
+      "cpf": "111.111.111-11",
+      "telefone": "11 11111-1111",
+      "contaBancaria": "111-1"
+    },
+    {
+      "id": 2,
+      "nome": "Joline",
+      "cpf": "222.222.222-22",
+      "telefone": "22 22222-2222",
+      "contaBancaria": "222-2"
+    },
+    {
+      "id": 3,
+      "nome": "teste",
+      "cpf": "333.333.333-33",
+      "telefone": "33 33333-3333",
+      "contaBancaria": "333-3"
+    },
+    {
+      "id": 4,
+      "nome": "a",
+      "cpf": "a",
+      "telefone": "a",
+      "contaBancaria": "a"
+    },
+    {
+      "id": 5,
+      "nome": "t",
+      "cpf": "",
+      "telefone": "",
+      "contaBancaria": ""
+    }
+  ],
+  "corretores": [
+    {
+      "id": 1,
+      "nome": "teste1",
+      "cpf": "1",
+      "telefone": "1",
+      "email": "1",
+      "dataAdmissao": "1",
+      "gerenteId": "1"
+    },
+    {
+      "id": 2,
+      "nome": "t2",
+      "cpf": "2",
+      "telefone": "2",
+      "email": "2",
+      "dataAdmissao": "2",
+      "gerenteId": "2"
+    }
+  ],
+  "Imoveis": [
+    {
+      "id": 1,
+      "nInscricao": "teste",
+      "valor": "1",
+      "finalidade": "1",
+      "status": "1"
+    },
+    {
+      "id": 2,
+      "nInscricao": "t2",
+      "valor": "2",
+      "finalidade": "2",
+      "status": "2"
+    }
+  ],
+  "alugueis": [
+    {
+      "id": 1,
+      "dataContrato": "teste",
+      "dataInicio": "1",
+      "dataFim": "1",
+      "valor": "1"
+    },
+    {
+      "id": 2,
+      "dataContrato": "t2",
+      "dataInicio": "2",
+      "dataFim": "2",
+      "valor": "2"
+    }
+  ],
+  "vendas": [
+    {
+      "id": 1,
+      "dataContrato": "teste",
+      "valor": "1"
+    },
+    {
+      "id": 2,
+      "dataContrato": "t2",
+      "valor": "2"
+    }
+  ]
+}

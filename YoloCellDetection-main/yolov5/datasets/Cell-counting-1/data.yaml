@@ -1,0 +1,15 @@
+names:
+- Croped cell
+- Dead cell
+- Trash
+- healthy cell
+nc: 4
+roboflow:
+  license: CC BY 4.0
+  project: cell-counting-vyzdn
+  url: https://universe.roboflow.com/iff/cell-counting-vyzdn/dataset/1
+  version: 1
+  workspace: iff
+test: ../test/images
+train: yolov5\datasets/Cell-counting-1/train/images
+val: yolov5\datasets/Cell-counting-1/valid/images
